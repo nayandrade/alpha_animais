@@ -1,0 +1,144 @@
+:root {
+    --image-1: url(../images/main\ gato.webp);
+    --image-2: url(../images/main\ dog.webp);
+    --image-3: url(../images/bottom\ 1.webp);
+    --image-4: url(../images/bottom\ 2.webp);
+    --image-5: url(../images/bottom\ 3.webp);
+    --image-6: url(../images/bottom\ 4.webp);
+    --image-7: url(../images/bottom\ 5.webp);
+    --image-8: url(../images/bottom\ 6.webp);
+    --image-9: url(../images/bottom\ 7.webp);
+    --image-10: url(../images/bottom\ 8.webp);
+    --image-11: url(../images/bottom\ 9.webp);
+    --image-12: url(../images/bottom\ 10.webp);
+    --image-13: url(../images/bottom\ 11.webp);
+    --image-14: url(../images/bottom\ 12.webp);
+}
+
+.history {
+    width: 57px;
+    height: 57px;
+    background-image: url(../images/history.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 5px;
+}
+
+.WhatWeDo {
+    width: 57px;
+    height: 57px;
+    background-image: url(../images/whatWeDo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 5px;
+}
+
+.book {
+    width: 57px;
+    height: 57px;
+    background-image: url(../images/book.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 5px;
+}
+
+.bottom1,
+.bottom2,
+.bottom3,
+.bottom4,
+.bottom5,
+.bottom6,
+.bottom7,
+.bottom8,
+.bottom9,
+.bottom10,
+.bottom11,
+.bottom12 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.bottom1:hover,
+.bottom2:hover,
+.bottom3:hover,
+.bottom4:hover,
+.bottom5:hover,
+.bottom6:hover,
+.bottom7:hover,
+.bottom8:hover,
+.bottom9:hover,
+.bottom10:hover,
+.bottom11:hover,
+.bottom12:hover {
+    filter: opacity(.5);
+}
+
+
+.bottom1 {
+    background-image: var(--image-3);
+}
+
+.bottom2 {
+    background-image: var(--image-4);
+}
+
+.bottom3 {
+    background-image: var(--image-5);
+}
+
+.bottom4 {
+    background-image: var(--image-6);
+}
+
+.bottom5 {
+    background-image: var(--image-7);
+}
+
+.bottom6 {
+    background-image: var(--image-8);
+}
+
+.bottom7 {
+    background-image: var(--image-9);
+}
+
+.bottom8 {
+    background-image: var(--image-10);
+}
+
+.bottom9 {
+    background-image: var(--image-11);
+}
+
+.bottom10 {
+    background-image: var(--image-12);
+}
+
+.bottom11 {
+    background-image: var(--image-13);
+}
+
+.bottom12 {
+    background-image: var(--image-14);
+}
+
+.article-container {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-container-bigger {
+    width: auto;
+    height: 469px;
+    overflow: hidden;
+    position: relative;
+}
